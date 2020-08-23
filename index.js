@@ -4,10 +4,11 @@ const Jimp = require("jimp")
 async function Sertif(nama) {
   //file path ke sertifikat kosongan
   const Sertifikat = './sertifikat.png'
+  const fontName = 'MontserratSemibold.fnt'
 
   //ini untuk load font nya (jenis, ukuran, type jadi satu) dengan extension .fnt 
   //https://stackoverflow.com/questions/24529369/how-to-convert-ttf-to-fnt-with-fontforge
-  const font = await Jimp.loadFont('./font/MontserratSemibold.fnt')
+  const font = await Jimp.loadFont('./font/'+fontName)
 
   Jimp.read(Sertifikat)
     .then(sertifikat => {
