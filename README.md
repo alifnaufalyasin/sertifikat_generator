@@ -11,7 +11,7 @@
 7. buka file index.js dan atur lebar dan tinggi (pixel) dari sertifikat anda pada baris ke 25 dan 26
 8. coba run dengan command ```node index.js```
 9. cek hasil nya di ```folder hasil``` 
-10. jika tulisan nama tersebut kurang pas, lakukan koreksi atas bawah pada ```line 18``` dan koreksi kanan kiri pada ```line 17```
+10. jika tulisan nama tersebut kurang pas, lakukan ```koreksi atas bawah pada line 18``` dan ```koreksi kanan kiri pada line 17```
 11 ulangi step 8-10 hingga dapat hasil yang sesuai
 
 # Font
